@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.amazon{
+    background-color: #131921;
+    display:flex;
+}
+.logo{
+    padding-left: 14px;
+    cursor: pointer;
+   
+
+}
+.search{
+   display: flex;
+   align-items: center;
+ 
+  
+}
+.search input{
+    width: 720px;
+    height: 33px;
+}
+.location{
+    display: flex;
+    color: white;
+    padding: 16px 31px;
+    cursor: pointer;
+}
+.mapp{
+  padding: 6px;
+}
+.search button {
+  float: left;
+  padding: 0px 11px;
+  border-left: none;
+  cursor: pointer;
+  font-size: 30px;
+  background-color: rgb(250, 211, 140);
+}
+.flag{
+  padding: 18px 15px;
+  text-align: center;
+  
+}
+.navbar {
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 14px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 11px 12px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+
+  .dropdown p{
+   
+    font-size: 13px;
+
+
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+  }
+  
+  .dropdown-content a {
+   
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.list:hover .dropdown-content {
+    display: block;
+  }
+  .return{
+    display: flex;
+    color: #f1f1f1;
+    flex-direction: column;
+    padding: 7px 12px;
+  }
+ .newline2{
+   display: block;
+   font-weight: bold;
+   
+ }
+ .flagarrow{
+    color: #f1f1f1;
+    position: relative;
+    top: -7px;
+    margin-left: 5px;
+ }
+ .cart{
+   color: white;
+   font-size: 2.5rem;
+   padding: 5px 10px;
+  
+    
+ }
