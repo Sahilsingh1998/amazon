@@ -130,6 +130,7 @@
 }
 .menu{
   padding: 0 10px;
+  display: block;
 }
 .menu a{
   font-size: 1.2rem;
@@ -137,7 +138,7 @@
   text-decoration: none;
 }
 .list{
-  display: flex;
+  display: block;
   text-decoration: none;
   list-style:none;
 
